@@ -7,8 +7,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body { 
+            /* Expanded the SVG canvas to 600x600 and centered the character to give it more breathing room */
             background-color: #fef08a; 
-            background-image: url("data:image/svg+xml,%3Csvg width='400' height='400' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='40' y='80' font-size='40' opacity='0.2'%3E%26%23128062%3B%3C/text%3E%3Ctext x='240' y='280' font-size='40' opacity='0.2'%3E%26%23128062%3B%3C/text%3E%3Ctext x='80' y='320' font-size='40' opacity='0.2'%3E%26%23128062%3B%3C/text%3E%3Cg transform='translate(250, 100)' opacity='0.85'%3E%3Cpath d='M-30,40 Q-10,20 10,40 Q20,50 15,70 Q25,80 10,90 L-30,90 Q-45,80 -35,70 Q-40,50 -30,40' fill='%2378350f'/%3E%3Ccircle cx='-10' cy='20' r='25' fill='%23f59e0b'/%3E%3Ccircle cx='-10' cy='25' r='12' fill='%23fff'/%3E%3Ccircle cx='-18' cy='15' r='3' fill='%23000'/%3E%3Ccircle cx='-2' cy='15' r='3' fill='%23000'/%3E%3Ccircle cx='-10' cy='25' r='4' fill='%23000'/%3E%3Cpath d='M-30,5 L-45,-20 L-20,-2' fill='%23f59e0b'/%3E%3Cpath d='M10,5 L25,-20 L0,-2' fill='%23f59e0b'/%3E%3Crect x='-26' y='42' width='32' height='10' rx='4' fill='%23ef4444'/%3E%3Ctext x='-24' y='50' font-size='7' font-family='Arial' font-weight='bold' fill='%23fff'%3EDOOKIE%3C/text%3E%3C/g%3E%3C/svg%3E");
+            background-image: url("data:image/svg+xml,%3Csvg width='600' height='600' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='60' y='120' font-size='40' opacity='0.2'%3E%26%23128062%3B%3C/text%3E%3Ctext x='400' y='400' font-size='40' opacity='0.2'%3E%26%23128062%3B%3C/text%3E%3Ctext x='150' y='500' font-size='40' opacity='0.2'%3E%26%23128062%3B%3C/text%3E%3Cg transform='translate(300, 250) scale(0.9)' opacity='0.85'%3E%3Cpath d='M-30,40 Q-10,20 10,40 Q20,50 15,70 Q25,80 10,90 L-30,90 Q-45,80 -35,70 Q-40,50 -30,40' fill='%2378350f'/%3E%3Ccircle cx='-10' cy='20' r='25' fill='%23f59e0b'/%3E%3Ccircle cx='-10' cy='25' r='12' fill='%23fff'/%3E%3Ccircle cx='-18' cy='15' r='3' fill='%23000'/%3E%3Ccircle cx='-2' cy='15' r='3' fill='%23000'/%3E%3Ccircle cx='-10' cy='25' r='4' fill='%23000'/%3E%3Cpath d='M-30,5 L-45,-20 L-20,-2' fill='%23f59e0b'/%3E%3Cpath d='M10,5 L25,-20 L0,-2' fill='%23f59e0b'/%3E%3Crect x='-26' y='42' width='32' height='10' rx='4' fill='%23ef4444'/%3E%3Ctext x='-24' y='50' font-size='7' font-family='Arial' font-weight='bold' fill='%23fff'%3EDOOKIE%3C/text%3E%3C/g%3E%3C/svg%3E");
             color: #2c2c2c; 
         }
         .font-serif-custom { font-family: 'Merriweather', 'Georgia', serif; }
@@ -91,31 +92,31 @@
             
             <!-- Puppy 1 -->
             <div class="bg-white rounded-xl overflow-hidden shadow-lg border-2 border-stone-200 flex flex-col">
-                <img src="puppy1.jpg" alt="Tiny Titan" class="w-full h-64 object-cover">
+                <img src="puppy1.jpg" alt="Fatty" class="w-full h-64 object-cover">
                 <div class="p-6 flex-grow">
-                    <h3 class="text-xl font-bold font-serif-custom mb-1">"Tiny Titan"</h3>
+                    <h3 class="text-xl font-bold font-serif-custom mb-1">"Fatty"</h3>
                     <span class="inline-block bg-green-100 text-green-800 text-xs px-2 rounded-full uppercase font-bold tracking-wide mb-3">Available</span>
-                    <p class="text-stone-600 text-sm">Titan inherited the blocky head and blue coat of a Great Dane, supported entirely by tiny Corgi legs. He is confident, top-heavy, and fiercely loyal.</p>
+                    <p class="text-stone-600 text-sm">Fatty inherited the blocky head and blue coat of a Great Dane, supported entirely by tiny Corgi legs. He is confident, top-heavy, and fiercely loyal.</p>
                 </div>
             </div>
 
             <!-- Puppy 2 -->
             <div class="bg-white rounded-xl overflow-hidden shadow-lg border-2 border-stone-200 flex flex-col">
-                <img src="puppy2.jpg" alt="Noodle" class="w-full h-64 object-cover">
+                <img src="puppy2.jpg" alt="Long Legs" class="w-full h-64 object-cover">
                 <div class="p-6 flex-grow">
-                    <h3 class="text-xl font-bold font-serif-custom mb-1">"Noodle"</h3>
+                    <h3 class="text-xl font-bold font-serif-custom mb-1">"Long Legs"</h3>
                     <span class="inline-block bg-green-100 text-green-800 text-xs px-2 rounded-full uppercase font-bold tracking-wide mb-3">Available</span>
-                    <p class="text-stone-600 text-sm">Noodle is a masterpiece of aerodynamics. Featuring a beautiful Beagle head and an incredibly long Dachshund body, he excels at napping in narrow sunbeams.</p>
+                    <p class="text-stone-600 text-sm">Long Legs is a masterpiece of aerodynamics. Featuring a beautiful Beagle head and an incredibly long Dachshund body, he excels at napping in narrow sunbeams.</p>
                 </div>
             </div>
 
             <!-- Puppy 3 -->
             <div class="bg-white rounded-xl overflow-hidden shadow-lg border-2 border-stone-200 flex flex-col">
-                <img src="puppy3.jpg" alt="Chimera" class="w-full h-64 object-cover">
+                <img src="puppy3.jpg" alt="A**hole" class="w-full h-64 object-cover">
                 <div class="p-6 flex-grow">
-                    <h3 class="text-xl font-bold font-serif-custom mb-1">"Chimera"</h3>
+                    <h3 class="text-xl font-bold font-serif-custom mb-1">"A**hole"</h3>
                     <span class="inline-block bg-yellow-100 text-yellow-800 text-xs px-2 rounded-full uppercase font-bold tracking-wide mb-3">Reserved</span>
-                    <p class="text-stone-600 text-sm">The perfect 4-way split. A Great Dane head, Corgi ears, Beagle patches, and a Dachshund chassis. Chimera represents the absolute pinnacle of our breeding program.</p>
+                    <p class="text-stone-600 text-sm">The perfect 4-way split. A Great Dane head, Corgi ears, Beagle patches, and a Dachshund chassis. A**hole represents the absolute pinnacle of our breeding program.</p>
                 </div>
             </div>
 
@@ -127,7 +128,7 @@
         <p class="text-lg font-serif-custom text-white mb-2">Ready to bring home a Dookie Dane?</p>
         <p class="mb-6">Applications for our Winter 2026 waitlist are currently open.</p>
         
-        <!-- Obfuscated Email Button -->
+        <!-- Obfuscated Email Button (Keeps your email safe from spam bots) -->
         <button onclick="requestApp()" class="bg-yellow-400 hover:bg-yellow-500 text-stone-900 font-bold py-3 px-8 rounded transition shadow-md cursor-pointer">
             Request an Application
         </button>
